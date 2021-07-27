@@ -5,17 +5,103 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Penguin Fashion</title>
+
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- main css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
 
   <body>
     <!-- start header section -->
-    <header id="home">
+    <header class="panda-bg pb-5">
       <!-- start nav section -->
-      <nav></nav>
+      <nav class="navbar navbar-expand-lg navbar-light panda-bg">
+        <div class="container">
+          <a class="navbar-brand" href="/index.html">
+            <img src="./assets/icons/logo.png" width="290" alt="Penguin Logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#products">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about_us">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact_us">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
       <!-- end nav section -->
 
       <!-- start hero section -->
-      <section id="hero"></section>
+      <section id="home" class="container pt-3 pb-4 py-lg-5">
+        <div class="row row-cols-1 row-cols-lg-2">
+          <div
+            class="text-container col d-flex flex-column justify-content-center"
+          >
+            <h1 class="text-uppercase panda-main-heading">
+              <span class="text-warning">be the penguins</span>
+              <br />
+              of winter
+            </h1>
+            <p class="panda-paragraph fs-6 w-75">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <button
+              class="
+                btn
+                py-3
+                px-4
+                rounded-3
+                fw-bold
+                fs-6
+                panda-main-btn
+                text-white
+              "
+            >
+              <ion-icon class="me-2" name="cart-outline"></ion-icon>
+              BUY NOW
+            </button>
+          </div>
+          <div class="img-container col mt-4 mt-lg-0">
+            <div class="d-flex justify-content-center">
+              <img
+                src="./assets/images/model.png"
+                alt="A Womne"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- end hero section -->
     </header>
     <!-- end header section -->
@@ -27,5 +113,22 @@
     <!-- start footer section -->
     <footer id="footer"></footer>
     <!-- end footer section -->
+
+    <!-- bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- ionicons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
