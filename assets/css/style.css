@@ -8,7 +8,7 @@ body {
 /* *** *** *** *** *** *** *** *** *** *** *** *** *** *\
 ## helper classes
 \* *** *** *** *** *** *** *** *** *** *** *** *** *** */
-.panda-bg {
+.penguin-bg {
   background: #fffbf0;
 }
 
@@ -20,12 +20,12 @@ body {
   width: 100%;
 }
 
-.panda-main-heading {
+.penguin-main-heading {
   font-weight: 500;
   font-size: 4rem;
 }
 
-.panda-main-btn {
+.penguin-main-btn {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -35,22 +35,22 @@ body {
   border-radius: 1rem;
 }
 
-.panda-main-btn:hover {
+.penguin-main-btn:hover {
   background: linear-gradient(-90deg, #a4bc46 0%, #85a019 100%);
 }
 
-.panda-card {
+.penguin-card {
   border-radius: 1.5rem;
   max-height: 500px;
 }
 
-.panda-card img {
+.penguin-card img {
   object-fit: contain;
   width: auto;
   min-height: 50%;
 }
 
-.panda-icon .icon img {
+.penguin-icon .icon img {
   height: 80px;
   width: 80px;
 }
